@@ -67,10 +67,10 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://meagan43:fQO5oUgjovox6kWh@rahat1.aebuc.mongodb.net/?retryWrites=true&w=majority&appName=rahat1")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://huhypizu:Z0IRtApEy5sxsr4W@rahat2.o9bja.mongodb.net/?retryWrites=true&w=majority&appName=rahat2")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rahatmv:YBCOFLzO06lM5JGt@rahat.vonlons.mongodb.net/?retryWrites=true&w=majority&appName=Rahat")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Rahat:2Kt8ukyiLNcrArPR@rahat.ryfgyni.mongodb.net/?retryWrites=true&w=majority&appName=Rahat")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rahat")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rahat')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movies')
 
 # ============================
 # Movie Notification & Update Settings
